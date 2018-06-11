@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111369" started-at="2018-06-11T05:40:04Z" finished-at="2018-06-11T05:41:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="111369" started-at="2018-06-11T05:40:04Z" finished-at="2018-06-11T05:41:55Z">
+      <class name="testcases.TC001_LoginAndLogout">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="beforeSuite" is-config="true" duration-ms="942" started-at="2018-06-11T05:40:03Z" finished-at="2018-06-11T05:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="setData" is-config="true" duration-ms="0" started-at="2018-06-11T05:40:04Z" finished-at="2018-06-11T05:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="beforeClass" is-config="true" duration-ms="17" started-at="2018-06-11T05:40:04Z" finished-at="2018-06-11T05:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="beforeMethod" is-config="true" duration-ms="59877" started-at="2018-06-11T05:40:09Z" finished-at="2018-06-11T05:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="loginAndLogout" duration-ms="26801" started-at="2018-06-11T05:41:09Z" data-provider="fetchData" finished-at="2018-06-11T05:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo Sales Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="afterMethod" is-config="true" duration-ms="1231" started-at="2018-06-11T05:41:36Z" finished-at="2018-06-11T05:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="beforeMethod" is-config="true" duration-ms="10684" started-at="2018-06-11T05:41:37Z" finished-at="2018-06-11T05:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="loginAndLogout" duration-ms="6504" started-at="2018-06-11T05:41:48Z" data-provider="fetchData" finished-at="2018-06-11T05:41:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo B2B CSR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="afterMethod" is-config="true" duration-ms="1183" started-at="2018-06-11T05:41:54Z" finished-at="2018-06-11T05:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-06-11T05:41:55Z" finished-at="2018-06-11T05:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_LoginAndLogout@127bd23]" name="afterSuite" is-config="true" duration-ms="2081" started-at="2018-06-11T05:41:56Z" finished-at="2018-06-11T05:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC001_LoginAndLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
